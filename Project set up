@@ -108,3 +108,63 @@ Document your code with comments and explanations.
 Monitor the application for issues.
 Update the models and features based on user feedback.
 
+8. Assumptions
+User Base:
+Assumption: Users are job seekers looking to improve their resumes.
+Data Required: Understanding user demographics, job sectors, and resume types.
+
+Resume Formats:
+Assumption: Resumes will be in various formats (e.g., PDF, DOCX).
+Data Required: Methods for parsing and processing different file formats.
+
+Literature, Language and Content:
+Assumption: Resumes will primarily be in English, but there may be some variability in language.
+Data Required: Handling multiple languages or regional variations in resume content.
+
+ATS Compatibility:
+Assumption: Resumes need to be optimized for Applicant Tracking Systems (ATS).
+Data Required: Common ATS requirements and keyword strategies.
+
+Data Privacy:
+Assumption: Resume data must be handled securely and comply with privacy regulations.
+Data Required: Understanding of data protection laws such as GDPR or CCPA.
+Policy- Declare consent and policies with initals of the user as acceptance
+
+9.Data to Consider
+Resume Data:
+Content: Sections such as experience, education, skills, and achievements.
+Structure: Formatting, layout, and organization of information.
+Keywords: Industry-specific keywords and phrases relevant to job roles.
+
+User Interaction Data:
+Feedback: User feedback on recommendations and overall experience.
+Usage Metrics: How users interact with the app, which features are used most frequently.
+
+Benchmark Data:
+Successful Resumes: Examples of high-performing resumes and their features.
+ATS Data: Information on common ATS filters and criteria.
+
+Machine Learning Model Data:
+Training Data: A diverse set of resumes for training the AI model, including successful and unsuccessful examples.
+Evaluation Data: A separate set of resumes for testing and validating model performance.
+
+Integration Data:
+APIs: Documentation and requirements for integrating with other systems (e.g., job boards, ATS).
+External Libraries: Information on libraries and tools for NLP and ML (e.g., scikit-learn, NLTK).
+
+Security Data:
+Encryption: Methods for securing data in transit and at rest.
+Access Control: How user data will be protected and who has access to it.
+Data Collection and Processing
+
+Collect Data:
+Use public datasets of resumes if available.
+Collect sample resumes from users (with consent) to build your training set.
+
+Preprocess Data:
+Extract relevant information from resumes (e.g., skills, experience).
+Normalize and clean data for consistency and accuracy.
+
+Analyze Data:
+Use statistical and ML techniques to identify patterns and insights.
+Continually update models based on user feedback and new data.
